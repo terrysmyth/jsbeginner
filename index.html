@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="terry.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body id="body">
+
+<!-- MAIN CONTAINER -->
+<div class="main">
+	<!-- PROFILE PHOTO -->
+	<div class="box photo">
+		<div class="boxInner" id="photoBox">
+			<div class="photoHolder" id="photo"></div>
+			<h1 id="name"></h1>
+		</div>
+	</div>
+
+	<!-- PROFILE INFORMATION -->
+	<div class="box profile">
+		<div class="boxInner" id="profile"></div>
+	</div>
+
+	<!-- PET INFORMATION -->
+	<div class="box pet">
+		<div class="boxInner" id="pet">
+			<div id="petPhoto"></div>
+			<div id="petInfo"></div>
+		</div>
+	</div>
+
+	<!-- FAVOURITE INFORMATION -->
+	<div class="box gifs">
+		<div class="boxInner" id="fav">
+			<h3 id="gifTitle">Fav Photos/Gifs</h3>
+			<div id="gifs"></div>
+		</div>
+	</div>
+
+	<!-- QUIZ -->
+	<div class="box quiz">
+		<div class="boxInner" id="quiz">
+			<h2 id="quizTitle">Want to take a quiz about me?</h2>
+			<h3 id="lastScore"></h3>
+			<button onclick="takeQuiz()">Take Quiz</button>
+		</div>
+	</div>
+
+</div>
+
+
+<script type="text/javascript" src="start.js"></script>
+<script type="text/javascript" src="quiz.js"></script>
+<script type="text/javascript" src="terry.js"></script>
+</body>
+</html>
